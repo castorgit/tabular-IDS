@@ -2,7 +2,7 @@
 
 Code for the article *Tabular Foundation Models (TFM) for SCADA Intrusion Detection Systems*.
 
-The repository evaluates TabPFN, a tabular foundation model, as an anomaly and intrusion detector on industrial control system (ICS) datasets. It is compared against classical, deep-learning and density-based baselines, and the same pipeline is applied to every dataset. The notebooks are provided for reproducibility. Full details are given in the accompanying documentation.
+The repository evaluates TabPFN, a tabular foundation model, as an anomaly and intrusion detector on industrial control system (ICS) datasets. It is compared against classical, deep-learning and density-based baselines, and the same pipeline is applied to every dataset. The notebooks are provided for reproducibility. Full details are given in the article.
 
 #### **Datasets**
 
