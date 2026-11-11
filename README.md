@@ -1,4 +1,4 @@
-####  **Tabular Foundation Models for SCADA/ICS Intrusion Detection**
+###  **Tabular Foundation Models for SCADA/ICS Intrusion Detection**
 
 Code for the article *Tabular Foundation Models (TFM) for SCADA Intrusion Detection Systems*.
 
