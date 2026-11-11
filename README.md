@@ -34,12 +34,12 @@ The datasets are not included. Download them from their original providers and a
 
 The baselines are compared with TabPFN using the same splits and metrics.
 
-### Experiments
+### Specific Experiments
 - `scada-E1-experiment.ipynb`: data-efficiency experiment. It measures how detection performance changes with the amount of normal training data.
 
-## Environment
+## Infrastructure requirements
 
-Python 3 with Jupyter, `tabpfn`, `scikit-learn`, `catboost`, `lightgbm`, `torch`, `pandas` and `numpy`. A GPU is recommended for TabPFN. The longer experiments, such as E1, can take many hours.
+A GPU is required for TabPFN. The longer experiments, such as E1, can take several hours in a capable GPU. Tests run in a GB10 nvidia system
 
 ## Citation
 
