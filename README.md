@@ -1,10 +1,10 @@
-# Tabular Foundation Models for SCADA/ICS Intrusion Detection
+####  **Tabular Foundation Models for SCADA/ICS Intrusion Detection**
 
 Code for the article *Tabular Foundation Models (TFM) for SCADA Intrusion Detection Systems*.
 
 The repository evaluates TabPFN, a tabular foundation model, as an anomaly and intrusion detector on industrial control system (ICS) datasets. It is compared against classical, deep-learning and density-based baselines, and the same pipeline is applied to every dataset. The notebooks are provided for reproducibility. Full details are given in the accompanying documentation.
 
-## Datasets
+#### **Datasets**
 
 | Dataset | Domain | Notes |
 |---|---|---|
@@ -15,32 +15,32 @@ The repository evaluates TabPFN, a tabular foundation model, as an anomaly and i
 
 The datasets are not included. Download them from their original providers and adjust the paths at the top of each notebook.
 
-## Notebooks
+#### **Notebooks**
 
-### Exploration and cleaning
+#### **Exploration and cleaning - EDA**
 - `SWaT_EDA.ipynb`: exploratory analysis and cleaning of SWaT.
 - `WADi_A1_2017_EDA_and_cleaning.ipynb`: exploratory analysis and cleaning of WADI A1 (2017).
 
-### Full detection pipelines (TabPFN)
+#### **Full detection pipelines (TabPFN)**
 - `SWaT_A1A2-full-pipeline-v3.ipynb`: end-to-end pipeline on SWaT (preprocessing, TabPFN detector, evaluation).
 - `WADi_A1_2017_full_pipeline_v1.ipynb`: same pipeline on WADI A1.
 - `WADi_A2_2019_full_pipeline_v1.ipynb`: same pipeline on WADI A2.
 - `HAI_full_pipeline_v1.ipynb`: same pipeline on HAI.
 - `tabPFN_NSLKDD_IDS_full_pipeline_v1.ipynb`: TabPFN on the NSL-KDD network intrusion benchmark.
 
-### Baselines
+#### **Baselines**
 - `HAI_baselines_v1.ipynb`: baseline detectors on HAI.
 - `WADI_A2_2019-baselines-v2.ipynb`: baseline detectors on WADI A2.
 
 The baselines are compared with TabPFN using the same splits and metrics.
 
-### Specific Experiments
+#### **Specific Experiments**
 - `scada-E1-experiment.ipynb`: data-efficiency experiment. It measures how detection performance changes with the amount of normal training data.
 
-## Infrastructure requirements
+#### **Infrastructure requirements**
 
 A GPU is required for TabPFN. The longer experiments, such as E1, can take several hours in a capable GPU. Tests run in a GB10 nvidia system
 
-## Citation
+#### **Citation**
 
 Citation details will be added once the article is published.
