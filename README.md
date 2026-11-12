@@ -44,3 +44,7 @@ A GPU is required for TabPFN. The longer experiments, such as E1, can take sever
 #### **Citation**
 
 Citation details will be added once the article is published.
+
+#### **License**
+
+Released under the MIT licence
